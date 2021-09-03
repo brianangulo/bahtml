@@ -1,0 +1,12 @@
+{
+  "name": "bahtml",
+  "version": "1.0.0",
+  "description": "HTML simplified. Custom markdown language that compiles into html",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run node './lib/index.js'"
+  },
+  "author": "Brian Angulo",
+  "license": "ISC"
+}
