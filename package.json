@@ -7,6 +7,18 @@
     "build": "tsc",
     "start": "npm run node './lib/index.js'"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianangulo/bahtml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brianangulo/bahtml/issues"    
+  },
+  "homepage": "https://github.com/brianangulo/bahtml#readme",
+  "type": "module",
+  "directories": {
+    "lib": "lib"    
+  },
   "author": "Brian Angulo",
   "license": "ISC"
 }
