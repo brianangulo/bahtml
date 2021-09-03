@@ -12,13 +12,16 @@
     "url": "git+https://github.com/brianangulo/bahtml.git"
   },
   "bugs": {
-    "url": "https://github.com/brianangulo/bahtml/issues"    
+    "url": "https://github.com/brianangulo/bahtml/issues"
   },
   "homepage": "https://github.com/brianangulo/bahtml#readme",
   "type": "module",
   "directories": {
-    "lib": "lib"    
+    "lib": "lib"
   },
   "author": "Brian Angulo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.7.10"
+  }
 }
