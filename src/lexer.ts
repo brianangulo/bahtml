@@ -7,5 +7,8 @@ const tokensList: Token[] = [
     {
         type: "htmlTag",
         regex: /(?<=::).*?(?=::)/g
+    }, {
+        type: "content",
+        regex: /a/,
     }
 ]
