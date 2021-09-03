@@ -22,7 +22,7 @@ const splitIntoLines = (path: string) => {
 //match html tags on each line and save them to an array
 //split each line by the tag regex and save the rest into the same array of tokens as the htmlTags
 //returns array of Token objects
-const createTokens: (path: string) => Token[] = (path: string) => {
+export const createTokens: (path: string) => Token[] = (path: string) => {
   const semiColonRegx: RegExp = /::::/;  
   const lines = splitIntoLines(path);
   const emptyStr: string = "";
@@ -40,7 +40,3 @@ const createTokens: (path: string) => Token[] = (path: string) => {
 
   return tokens;
 };
-
-console.time('test');
-console.log(createTokens("/Users/brian/Projects/projects/baml/test.baml"));
-console.timeEnd('test');
