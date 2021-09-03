@@ -1,6 +1,6 @@
 # BAHTML
 
-BAHTML is a simpler way of writing bare HTML. Its a custom markup language that compiles into HTML. Plan for v1.0.0 is to support for at least most commonly used nodes such as '<p> <h>' and '<div>'.
+BAHTML is a simpler way of writing bare HTML. Its a custom markup language that compiles into HTML. Plan for v1.0.0 is to support for at least most commonly used nodes such as ``` <p> <h> ``` and ``` <div> ```.
 
 ### Syntax
 
