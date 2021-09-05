@@ -33,7 +33,15 @@ Make sure to add "type": "module" to your package.json since I have not added co
 
 ### Usage
 
-There are a few ways to run the transpiler. The easiest and fastest way is to ``` cd ``` into your project folder or whatever folder ``` .baml ``` files are being kept and run the command ``` bahtml ``` this will transpiles all .baml files found. See example for all the ways to run the transpiler below: 
+There are a few ways to run the transpiler. The easiest and fastest way is to ``` cd ``` into your project folder or whatever folder ``` .baml ``` files are being kept and run the command ``` bahtml ``` this will transpiles all .baml files found. See example for all the ways to run the transpiler below:
+
+```
+
+//run the following terminal command where all .baml files are stored
+
+bahtml
+
+```
 
 ```
 
