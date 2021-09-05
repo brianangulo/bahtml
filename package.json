@@ -4,8 +4,7 @@
   "description": "HTML simplified. Custom markdown language that compiles into html",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "npm run node './lib/index.js'"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,9 @@
   "type": "module",
   "directories": {
     "lib": "lib"
+  },
+  "bin": {
+    "bahtml": "./lib/cli.js"
   },
   "author": "Brian Angulo",
   "license": "ISC",
