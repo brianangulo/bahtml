@@ -1,6 +1,6 @@
 # BAHTML
 
-BAHTML is a simpler way of writing bare HTML. Its a custom markup language that compiles into HTML. Plan for v1.0.0 is to support for at least most commonly used nodes such as ``` <p> <h> ``` and ``` <div> ```.
+BAHTML is a simpler way of writing bare HTML. Its a custom markup language that compiles into HTML.
 
 ### Syntax
 
@@ -14,6 +14,36 @@ The syntax is simple. The idea is to writing in files with extension .baml the t
 
 ::div class="dev":: //OUTPUT -> <p class="dev"></div>
 
+
+```
+
+### Installation
+
+Install node.js v10+ if not already installed.
+
+```
+
+npm install bahtml
+
+yarn add bahtml
+
+```
+
+Make sure to add "type": "module" to your package.json since I have not added commonJs support yet.
+
+### Usage
+
+There are a few ways to run the transpiler. The easiest and fastest way is to ``` cd ``` into your project folder or whatever folder ``` .baml ``` files are being kept and run the command ``` bahtml ``` this will transpiles all .baml files found. See example for all the ways to run the transpiler below: 
+
+```
+
+import { fileGenerator, transpiler } from "bahtml";
+
+/* No support for calling them from the browser as of yet. */
+
+fileGenerator('./test.baml'); //Takes in the path to any .baml file and Converts it into .html
+
+transpiler();   //Looks at current directory and converts all files with a .baml extension into html    
 
 ```
 
