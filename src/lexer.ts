@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 
-interface Token {
+export interface Token {
   tag: string;
   content: string;
 }
