@@ -4,7 +4,7 @@ BAHTML is a simpler way of writing bare HTML. Its a custom markup language that 
 
 ### Syntax
 
-The syntax is simple. The idea is to writing in files with extension .baml the tag name in between '::' followed by text to go in between HTML Tags. One liners are will not be supported as of v1.0.0 so every line should be individually separated as seen below. No comments supported at this time either.
+The syntax is simple. The idea is to writing in files with extension .baml the tag name in between '::' followed by text to go in between HTML Tags. There is also no need to write head or body tags just the lines you wish to write, rest will be generated later and can be edited in each .html file. One liners are will not be supported as of v1.0.0 so every lines should be written individually and separated by 1 line space as seen below. No comments supported at this time either.
 
 ```
 
