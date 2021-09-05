@@ -1,6 +1,6 @@
 {
   "name": "bahtml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTML simplified. Custom markdown language that compiles into html",
   "main": "lib/index.js",
   "scripts": {
