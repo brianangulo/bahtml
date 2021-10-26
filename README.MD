@@ -23,23 +23,27 @@ Install node.js v10+ if not already installed.
 
 ```
 
-npm install bahtml
+npm install -D bahtml
 
-yarn add bahtml
+yarn add -D bahtml
 
 ```
 
-Make sure to add "type": "module" to your package.json since I have not added commonJs support yet.
+Add "type": "module" to your package.json since there is no commonJs support yet.
 
 ### Usage
 
-There are a few ways to run the transpiler. The easiest and fastest way is to ``` cd ``` into your project folder or whatever folder ``` .baml ``` files are being kept and run the command ``` bahtml ``` this will transpiles all .baml files found. See example for all the ways to run the transpiler below:
+There are a few ways to run the transpiler. The easiest and fastest way is to ``` cd ``` into your project folder or whatever folder ``` .baml ``` files are being kept and run the command ```npx bahtml ``` this will transpiles all .baml files found. See example for all the ways to run the transpiler below:
 
 ```
 
 //run the following terminal command where all .baml files are stored
 
-bahtml
+//npx
+npx bahtml
+
+//yarn
+yarn bahtml
 
 ```
 
